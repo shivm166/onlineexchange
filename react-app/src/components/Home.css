@@ -1,0 +1,178 @@
+/* Updated CSS for enhanced visual appeal */
+
+/* Global Styles */
+body {
+    font-family: 'Monospace', sans-serif;
+    background: #EBF9F8; /* Light background color */
+    color: #152754; /* Dark text color */
+    margin: 0;
+    padding: 0;
+}
+
+/* Icons */
+.icons, .red-icons {
+    font-size: 24px;
+    height: 24px;
+    width: 24px;
+    color: #3498db; /* Blue color for icons */
+    cursor: pointer;
+    transition: color 0.3s ease-in-out;
+}
+
+.icons:hover {
+    color: #2980b9; /* Darker blue on hover */
+}
+
+.red-icons {
+    color: #e74c3c; /* Red color for specific icons */
+}
+
+/* Container for Icons */
+.icon-con {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    border-radius: 50%;
+    padding: 7px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Price Text */
+.price-text {
+    color: #F70A2A; /* Dark blue text color */
+    font-size: 18px;
+}
+
+/* Clear Button */
+.clear-btn {
+    height: 36px;
+    background-color: #F70A2A;
+    color: #fff;
+    border-radius: 4px;
+    font-size: 20px;
+    outline: none;
+    border: none;
+    padding: 0 15px;
+    margin-top: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.clear-btn:hover {
+    background-color: #2980b9; /* Darker blue on hover */
+
+}
+
+/* Cards Section */
+.main {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.cards_item {
+    display: flex;
+    padding: 1rem;
+}
+
+.card_image {
+    height: calc(1 * 1.2rem);
+    padding: 1.2rem 1.2rem 0;
+    position: relative;
+}
+
+.card_image:before,
+.card_image:after {
+    content: "";
+    position: absolute;
+    width: 20px;
+    left: 60%;
+    top: 0;
+    height: 45px;
+    background: #0000003b;
+    transform: rotate(45deg);
+}
+
+.card_image:after {
+    transform: rotate(-45deg);
+    top: auto;
+    bottom: -22px;
+    left: 40%;
+}
+
+.card_image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.cards_item {
+    filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.25));
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 8px; /* Slightly increased border-radius */
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    padding-left: 30px;
+    line-height: 1.2rem;/**/
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.card_content {
+    padding: 1.2rem;
+}
+
+h2.card_title, p {
+    margin: 1.2rem 0;
+}
+
+h2.card_title {
+    font-size: 1.5rem; /* Slightly increased font size */
+    color: #333; /* Dark text color */
+}
+
+/* Additional Styling */
+.card_title {
+    font-weight: bold; /* Make the title bold */
+}
+
+/* Additional styling for links */
+/* Base styles for links */
+a {
+    color: #040B05; /* Dark blue color for links */
+    text-decoration: none; /* Remove underline */
+    transition: color 0.3s ease-in-out; /* Smooth color transition */
+    font-weight: bold; /* Make text bold */
+    font-size: 17px; /* Set font size */
+    padding: 5px 10px; /* Add padding */
+    border-radius: 5px; /* Add rounded corners */
+    background-color: white;; /* Light gray background color */
+}
+
+/* Hover styles for links */
+a:hover {
+    color: #ffffff; /* White text color on hover */
+    background-color: white; /* Dark blue background color on hover */
+}
+
+/* Media Queries for Responsiveness */
+@media only screen and (max-width: 768px) {
+    .cards {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    }
+}

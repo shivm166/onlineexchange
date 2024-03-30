@@ -1,0 +1,125 @@
+body {
+    font-family: 'Monospace', sans-serif;
+    background: #BCFBB6; /* Light background color */
+    color: #152754; /* Dark text color */
+    margin: 0;
+    padding: 0;
+}
+
+/* AddProduct.css */
+.new-container {
+    background-color: #f3f4f6;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 100%;
+    max-width: 1000px; /* Increased width */
+    padding: 40px; /* Increased padding */
+    background-color: #ffffff;
+    border-radius: 12px; /* Increased border radius */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Increased box shadow */
+}
+
+.form-group {
+    margin-bottom: 30px; /* Increased margin */
+}
+
+.form-group label {
+    font-size: 1.1rem; /* Increased font size */
+    font-weight: bold;
+    color: #333333;
+    margin-bottom: 12px; /* Increased margin */
+    display: block;
+}
+
+.form-control {
+    width: 100%;
+    padding: 16px; /* Increased padding */
+    font-size: 1.1rem; /* Increased font size */
+    border: 1px solid #cccccc;
+    border-radius: 6px; /* Increased border radius */
+    transition: border-color 0.3s ease;
+}
+
+.form-control:focus {
+    outline: none;
+    border-color: #4a90e2;
+}
+
+.file-input {
+    padding: 16px; /* Increased padding */
+    font-size: 1.1rem; /* Increased font size */
+    border: 1px solid #cccccc;
+    border-radius: 6px; /* Increased border radius */
+    background-color: #ffffff;
+    cursor: pointer;
+    transition: border-color 0.3s ease;
+}
+
+.file-input:focus {
+    outline: none;
+    border-color: #4a90e2;
+}
+
+.submit-btn {
+    width: 100%;
+    padding: 16px; /* Increased padding */
+    font-size: 1.1rem; /* Increased font size */
+    font-weight: bold;
+    color: #ffffff;
+    border: none;
+    border-radius: 6px; /* Increased border radius */
+    background-color: #4a90e2;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+    background-color: #357dbf;
+}
+
+.toastify {
+    font-family: 'Roboto', sans-serif;
+}
+
+.toastify-body {
+    font-size: 1.1rem; /* Increased font size */
+    border-radius: 6px; /* Increased border radius */
+}
+
+.toastify-content {
+    padding: 16px; /* Increased padding */
+}
+
+.icons, .red-icons {
+    font-size: 24px;
+    height: 24px;
+    width: 24px;
+    color: #3498db; /* Blue color for icons */
+    cursor: pointer;
+    transition: color 0.3s ease-in-out;
+}
+
+.icons:hover {
+    color: #2980b9; /* Darker blue on hover */
+}
+
+.red-icons {
+    color: #e74c3c; /* Red color for specific icons */
+}
+
+/* Container for Icons */
+.icon-con {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    border-radius: 50%;
+    padding: 7px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}

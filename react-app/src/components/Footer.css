@@ -1,0 +1,24 @@
+.footer {
+  background-color: #EAFAF1; /* Set background color */
+  color: #fff; /* Set text color */
+  padding: 90px; /* Add padding */
+}
+
+.social-links {
+  display: flex; /* Set display to flex */
+  justify-content: center; /* Center items horizontally */
+  align-items: center; /* Center items vertically */
+}
+
+.social-links a {
+  color: green; /* Set icon color */
+  font-size: 30px; /* Set icon size */
+  margin: 0 10px; /* Add margin between icons */
+  text-decoration: none; /* Remove underline */
+}
+
+.social-links a:hover {
+  color: red; /* Change icon color on hover */
+}
+
+

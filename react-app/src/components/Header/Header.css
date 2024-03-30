@@ -1,0 +1,138 @@
+/*.header-container {
+  background-color: #E3B964;
+  padding: 1px 1px;
+}
+*/
+
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.links {
+  text-decoration: none;
+  color: #fff;
+  margin-right: 20px;
+  font-size: 21.6px;
+  background-color: #23BACC;
+}
+
+.links:hover {
+  color: #ff0; 
+}
+
+.map {
+  padding: 10px;
+  margin-right: 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #002f34;
+}
+
+.search {
+      margin-left: 20px;
+    padding-left: 50px;
+    width: 600px;
+    height: 44px;
+    border: 2px solid #002f34;
+    border-radius: 4px 2px 0px 4px;
+    font-weight: bold;
+
+}
+
+.search-btn {
+    height: 44px;
+    background-color: #002f34;
+    color: #fff;
+    border-radius: 0px 4px 4px 0px;
+    outline: none;
+    border: none;
+    padding: 0px 15px;
+    
+}
+
+.nav-container {
+  position: absolute;
+  top: 65px;
+  right: 50px;
+/*  background-color:  #002f34;*/
+/*  border: 1px solid #ddd;*/
+/*  border-radius: 5px;*/
+  display: flex;
+  flex-direction:  row;
+     
+}
+
+
+.logout-btn {
+  background-color: white;
+  color: black;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+}
+
+.login {
+   display: inline-block;
+    padding: 30px 20px;
+    color: #fff;
+    background-color: yellow;
+    color: black;
+    background-color:  #002f34;
+    font-style: bold;
+    text-decoration: none;
+    border-radius: 59px;
+    transition: background-color 0.3s ease-in-out;
+}
+.cat-container {
+    margin-top: 20px;
+}
+
+.category-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.category-label {
+    margin-right: 15px;
+    font-weight: bold;
+}
+
+.category-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.category-item {
+    padding: 5px 20px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background-color: #6CE2F2;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #31080E;
+    transition: background-color 0.3s ease;
+}
+
+.category-item:hover {
+    background-color: #A91222;
+}
+
+.showover{
+    background-color: #A4F88E;
+    font-weight: bold;
+    justify-content: space-between;
+    margin-top: 25px;
+    padding: 70px;
+    border-radius: 50px;
+
+}
+}
